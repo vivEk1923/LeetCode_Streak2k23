@@ -2,6 +2,7 @@ class Solution {
 public:
     int kthSmallest(vector<vector<int>> mat, int k) {
         int n = mat.size();
+
     
     if(k > n*n)
     return -1;

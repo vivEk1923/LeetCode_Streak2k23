@@ -7,6 +7,7 @@ public:
             paths*=i;
             paths/=i-n+1; }
         return int(paths);
+
         
     }
 };
